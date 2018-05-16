@@ -10,6 +10,6 @@ RUN wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud
     /google-cloud-sdk/install.sh -q && \
     ln -s /google-cloud-sdk/bin/* /usr/local/bin && \
     gcloud --version && \
-    rm google-cloud-sdk-201.0.0-linux-x86_64.tar.gz
+    rm google-cloud-sdk-${SDK_VERSION}-linux-x86_64.tar.gz
 
 RUN gcloud components install docker-credential-gcr --quiet
