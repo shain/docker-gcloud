@@ -1,4 +1,4 @@
-FROM docker:stable-git
+FROM docker:18-dind
 MAINTAINER Peter Wiggers <peter@bitlayer.nl>
 
 ENV SDK_VERSION="201.0.0"
